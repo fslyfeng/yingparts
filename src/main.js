@@ -1,5 +1,6 @@
-import "./assets/rem";
-import "./assets/reset.css";
+// import "./assets/rem";
+// import "./assets/reset.css";
+import 'lib-flexible/flexible' // px自动转rem
 import Vue from "vue";
 import App from "./App.vue";
 

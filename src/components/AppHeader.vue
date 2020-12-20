@@ -6,14 +6,16 @@
 
 <template>
   <div>
-    <van-row class="van-row">
-      <van-col span="4">
+    <van-row type="flex" justify="space-around" class="van-row">
+      <van-col span="5">
         <img class="logo" src="../assets/logo.png" />
       </van-col>
       <van-col span="16"
         ><van-search class="search" v-model="value" placeholder="搜索商品名称"
       /></van-col>
-      <van-col span="4"></van-col>
+      <van-col span="3"
+        ><img class="logo" src="../assets/icon/sharpicons_user-button.png"
+      /></van-col>
     </van-row>
   </div>
 </template>
@@ -30,20 +32,25 @@ export default {
 
 <style scoped>
 .van-row {
-  margin: 0.1rem 0 0.1rem 0;
+  margin: 0.2rem 0 0.2rem 0;
 }
 .logo {
-  height: 0.3rem;
-  display: inline-block;
-  margin: 0 0.1rem 0 0.1rem;
+  height: 0.8rem;
+  /* display: inline-block; */
+  margin: 0 0.2rem;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .search {
-  height: 0.3rem;
-  border: 0;
   padding: 0;
-  margin: 0 0.1rem 0 0.1rem;
+      display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .van-search__content {
-  border-radius: 0.05rem;
+  border-radius: 0.1rem;
 }
 </style>
