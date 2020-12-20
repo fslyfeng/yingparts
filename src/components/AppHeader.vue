@@ -34,21 +34,22 @@ export default {
 .van-row {
   margin: 0.2rem 0 0.2rem 0;
 }
+.van-col {
+  text-align: center;
+}
 .logo {
-  height: 0.8rem;
-  /* display: inline-block; */
-  margin: 0 0.2rem;
+  height: 1rem;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.search {
+  padding: 0;
+  margin: 0 auto;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-.search {
-  padding: 0;
-      display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 .van-search__content {
   border-radius: 0.1rem;
