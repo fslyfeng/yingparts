@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <app-head />
+    <app-header />
     <app-menu />
     <app-footer />
   </div>
@@ -8,14 +8,14 @@
 
 <script>
 // @ is an alias to /src
-import AppHead from "@/components/AppHead.vue";
+import AppHeader from "@/components/AppHeader.vue";
 import AppMenu from "../components/AppMenu.vue";
 import AppFooter from "../components/AppFooter.vue";
 
 export default {
   name: "Home",
   components: {
-    AppHead,
+    AppHeader,
     AppMenu,
     AppFooter,
   },

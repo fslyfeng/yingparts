@@ -3,9 +3,12 @@ import "./assets/reset.css";
 import Vue from "vue";
 import App from "./App.vue";
 
-import { Button } from "vant";
+import { Button, Col, Row, search } from "vant";
 import router from "./router";
-Vue.use(Button);
+Vue.use(Button)
+  .use(Col)
+  .use(Row)
+  .use(search);
 Vue.config.productionTip = false;
 
 new Vue({
