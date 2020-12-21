@@ -32,24 +32,28 @@ export default {
 
 <style scoped>
 .van-row {
-  margin: 0.2rem 0 0.2rem 0;
+  margin: 0.2rem 0 0 0;
 }
 .van-col {
   text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
 .logo {
-  height: 1rem;
+  height: 0.8rem;
   display: inline-block;
   margin: 0 auto;
-  vertical-align: middle;
 }
 .search {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
-  -webkit-box-align: center;
+  /* -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center; */
 }
 .van-search__content {
   border-radius: 0.1rem;
