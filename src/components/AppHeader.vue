@@ -35,12 +35,13 @@ export default {
   margin: 0.2rem 0 0 0;
 }
 .van-col {
-  text-align: center;
   padding: 0;
+  /* 水平居中 */
+  text-align: center;
+  /* 垂直居中 */
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 .logo {
   height: 0.8rem;
@@ -50,10 +51,6 @@ export default {
 .search {
   padding: 0;
   margin: 0;
-  display: flex;
-  /* -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; */
 }
 .van-search__content {
   border-radius: 0.1rem;
