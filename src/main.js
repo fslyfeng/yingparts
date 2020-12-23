@@ -1,10 +1,19 @@
-// import "./assets/rem";
-// import "./assets/reset.css";
 import "lib-flexible/flexible"; // px自动转rem
 import Vue from "vue";
 import App from "./App.vue";
 
-import { Button, Col, Row, search, Tab, Tabs, Swipe, SwipeItem } from "vant";
+import {
+  Button,
+  Col,
+  Row,
+  search,
+  Tab,
+  Tabs,
+  Swipe,
+  SwipeItem,
+  Tabbar,
+  TabbarItem,
+} from "vant";
 import router from "./router";
 Vue.use(Button)
   .use(Col)
@@ -13,7 +22,9 @@ Vue.use(Button)
   .use(Tab)
   .use(Tabs)
   .use(Swipe)
-  .use(SwipeItem);
+  .use(SwipeItem)
+  .use(Tabbar)
+  .use(TabbarItem);
 Vue.config.productionTip = false;
 
 new Vue({
