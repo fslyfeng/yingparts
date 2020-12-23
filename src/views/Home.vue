@@ -11,8 +11,8 @@
 // @ is an alias to /src
 import AppHeader from "@/components/AppHeader.vue";
 import AppMenu from "@/components/AppMenu.vue";
-import AppFooter from "@/components/AppFooter.vue";
 import AppSlideshow from "@/components/AppSlideshow.vue";
+import AppFooter from "@/components/AppFooter.vue";
 
 export default {
   name: "Home",

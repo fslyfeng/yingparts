@@ -34,6 +34,6 @@ export default {
   color: #fff;
   font-size: 20px;
   text-align: center;
-  background-color: #39a9ed;
+  background-color: #ffffff;
 }
 </style>
