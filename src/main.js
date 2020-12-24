@@ -13,6 +13,10 @@ import {
   SwipeItem,
   Tabbar,
   TabbarItem,
+  Cell,
+  CellGroup,
+  Grid,
+  GridItem,
 } from "vant";
 import router from "./router";
 Vue.use(Button)
@@ -24,7 +28,11 @@ Vue.use(Button)
   .use(Swipe)
   .use(SwipeItem)
   .use(Tabbar)
-  .use(TabbarItem);
+  .use(TabbarItem)
+  .use(Cell)
+  .use(CellGroup)
+  .use(Grid)
+  .use(GridItem);
 Vue.config.productionTip = false;
 
 new Vue({
