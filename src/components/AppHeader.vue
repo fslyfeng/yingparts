@@ -8,7 +8,7 @@
   <div>
     <van-row type="flex" justify="space-around" class="van-row">
       <van-col span="5">
-        <img class="logo" src="../assets/logo.png" />
+        <img class="logo" src="../assets/img/logo.png" />
       </van-col>
       <van-col span="16"
         ><van-search class="search" v-model="value" placeholder="搜索商品名称"

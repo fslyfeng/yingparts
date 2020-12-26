@@ -17,6 +17,7 @@ import {
   CellGroup,
   Grid,
   GridItem,
+  Divider,
 } from "vant";
 import router from "./router";
 Vue.use(Button)
@@ -32,7 +33,8 @@ Vue.use(Button)
   .use(Cell)
   .use(CellGroup)
   .use(Grid)
-  .use(GridItem);
+  .use(GridItem)
+  .use(Divider);
 Vue.config.productionTip = false;
 
 new Vue({

@@ -5,6 +5,7 @@
 -->
 <template>
   <div class="goodslist">
+    <!-- ###### -->
     <van-cell-group>
       <van-cell title="最新商品" value="更多" url="#" />
     </van-cell-group>
@@ -16,30 +17,12 @@
         text="文字"
       />
     </van-grid>
-    <van-cell-group>
-      <van-cell title="最新商品" value="更多" url="#" />
-    </van-cell-group>
-    <van-grid :column-num="3">
-      <van-grid-item
-        v-for="value in 6"
-        :key="value"
-        icon="photo-o"
-        text="文字"
-      />
-    </van-grid>
-    <van-cell-group>
-      <van-cell title="最新商品" value="更多" url="#" />
-    </van-cell-group>
-    <van-grid :column-num="3">
-      <van-grid-item
-        v-for="value in 6"
-        :key="value"
-        icon="photo-o"
-        text="文字"
-      />
-    </van-grid>
-    <div class="footer">
-      footer div
+
+    <div>
+      <van-divider>版权所有 樱洁卫浴配件 | 联系电话：0750-82597750</van-divider>
+      <br />
+      <br />
+      <br />
     </div>
   </div>
 </template>
@@ -52,12 +35,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.footer {
-  height: 2rem;
-  background: #666;
-  font-size: 0.5rem;
-  color: #fff;
-  text-align: center;
-}
-</style>
+<style scoped></style>
