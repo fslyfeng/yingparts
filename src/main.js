@@ -18,6 +18,7 @@ import {
   Grid,
   GridItem,
   Divider,
+  Image as VanImage,
 } from "vant";
 import router from "./router";
 Vue.use(Button)
@@ -34,7 +35,8 @@ Vue.use(Button)
   .use(CellGroup)
   .use(Grid)
   .use(GridItem)
-  .use(Divider);
+  .use(Divider)
+  .use(VanImage);
 Vue.config.productionTip = false;
 
 new Vue({
